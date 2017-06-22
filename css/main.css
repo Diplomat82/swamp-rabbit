@@ -14,7 +14,12 @@
 }
 
 body {
-  background-color: red;
+  background-color: white;
+  margin: 0;
+}
+
+a:visited {
+  color: #000;
 }
 
 header{
@@ -55,11 +60,19 @@ header{
   text-align: center;
   position: relative;
 }
+.image-cards{
+  display: flex;
+  justify-content: center;
+}
 .single-img-card{
-background-size: cover;
-height: 200px;
-width: 200px;
-list-style: none;
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  list-style: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 10px 10px 25px -9px rgba(0,0,0,0.75);
+
 }
 
 
@@ -80,14 +93,36 @@ list-style: none;
 
 
 .callout-wrapper{
+  background-color: #27ae60;
+  font-family: "Poiret One";
+  color: #ffffff;
+  font-size: 35px;
+  text-align: center;
+  padding: 5px 0;
+  text-shadow: 2px 2px 2px rgba(91, 91, 91, 0.8);
 }
-
 
 .callout-msg{
+  width: 80%;
+  margin: 0 auto;
 }
 
+.contact-wrapper{
+  text-align: center;
+  font-family: "Poiret One";
+  font-size: 25px;
+  text-shadow: 2px 2px 2px rgba(91, 91, 91, 0.8);
+  padding: 10px 10px;
+}
 
+.footer-wrapper{
+  background-color: #AE2207;
+  padding: 5px 0px;
+  display: flex;
+  justify-content: center;
 
+}
 
-.primary-text{
+.site-footer-text{
+  text-align: center;
 }
